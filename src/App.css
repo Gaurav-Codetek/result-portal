@@ -8,7 +8,7 @@
   background: url('./Components/Image/bg-img-blur.png');
   background-size: cover;
   height: 100vh;
-  padding: 40px 0;
+  padding: 4% 0;
   /* filter: blur(10px); */
   backdrop-filter: blur(2px);
 
@@ -19,16 +19,10 @@
 /*---------------------------------------Form Component------------------------------------------- */
 
 .container{
-  /* background-color: #fff; */
   display: flex;
   justify-content: center;
-  /* align-items: center; */
-  height: 30px;
   z-index: 55;
   margin: 0 15%;
-  height: 100%;
-  /* max-height: fit-content; */
-  backdrop-filter: blur(5px);
   filter: drop-shadow(0 0 0.15rem #545454);
 }
 
@@ -56,7 +50,7 @@
   color: #1E5075;
   font-weight: 700;
   font-size: 20px;
-  padding: 4% 0;
+  padding: 20px 0px;
 }
 
 .siteNm{
@@ -189,7 +183,7 @@ p.head{
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  margin-top: 10%;
+  margin-top: 40px;
 }
 
 .prev p{
