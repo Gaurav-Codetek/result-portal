@@ -8,9 +8,13 @@
   background: url('./Components/Image/bg-img-blur.png');
   background-size: cover;
   height: 100vh;
-  padding: 30px 0px;
+  /* padding: 80px 0; */
   /* filter: blur(10px); */
   backdrop-filter: blur(2px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
 
@@ -18,13 +22,13 @@
 /*---------------------------------------Form Component------------------------------------------- */
 
 .container{
+  width: 70%;
   display: flex;
   justify-content: center;
-  /* transform: translateY(50%); */
-  /* height: 100vh; */
-  /* align-items: center; */
-  /* z-index: 55; */
-  margin: 0 15%;
+  z-index: 55;
+  /* margin: 0 15%; */
+  height: fit-content;
+  backdrop-filter: blur(5px);
   filter: drop-shadow(0 0 0.15rem #545454);
 }
 
@@ -52,7 +56,7 @@
   color: #1E5075;
   font-weight: 700;
   font-size: 20px;
-  padding: 20px 0px;
+  padding: 3% 0;
 }
 
 .siteNm{
@@ -185,7 +189,7 @@ p.head{
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  margin-top: 40px;
+  margin-top: 10%;
 }
 
 .prev p{
@@ -211,10 +215,6 @@ p.head{
   .form{
     width: 100%;
     border-radius: 6px;
-  }
-
-  .bg{
-    height: 74vh;
   }
 }
 
