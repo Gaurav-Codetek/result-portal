@@ -2,30 +2,29 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow: hidden;
 }
 
- .bg{
+.bg{
   background: url('./Components/Image/bg-img-blur.png');
-  background-size:contain;
+  background-size: cover;
   height: 100vh;
-  /* padding: 4% 0; */
+  padding: 30px 0px;
   /* filter: blur(10px); */
-  /* backdrop-filter: blur(2px);  */
-} 
+  backdrop-filter: blur(2px);
+}
 
 
 
 /*---------------------------------------Form Component------------------------------------------- */
 
 .container{
-  position: absolute;
   display: flex;
   justify-content: center;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
   /* transform: translateY(50%); */
+  /* height: 100vh; */
+  /* align-items: center; */
+  /* z-index: 55; */
+  margin: 0 15%;
   filter: drop-shadow(0 0 0.15rem #545454);
 }
 
@@ -150,7 +149,7 @@ input[type=submit]:hover{
 }
 
 .updates{
-  margin: 0px 0px;
+  margin: 0px 30px;
 }
 
 .updInfo{
@@ -158,7 +157,7 @@ input[type=submit]:hover{
 }
 
 .date{
-  width: 20%;
+  width: 13%;
   font-size: 22px;
   background-color: #0a80d597;
   /* width: fit-content; */
@@ -172,7 +171,7 @@ input[type=submit]:hover{
 }
 
 .info{
-  width: 100%;
+  width: 87%;
   text-align: left;
   margin-left: 25px;
 }
