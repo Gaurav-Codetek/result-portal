@@ -212,6 +212,10 @@ p.head{
     width: 100%;
     border-radius: 6px;
   }
+
+  .bg{
+    height: 74vh;
+  }
 }
 
 
