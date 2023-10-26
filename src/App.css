@@ -216,6 +216,11 @@ p.head{
     width: 100%;
     border-radius: 6px;
   }
+
+  input, select{
+    border: none;
+    outline: none;
+  }
 }
 
 

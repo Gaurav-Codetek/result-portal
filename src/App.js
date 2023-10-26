@@ -6,7 +6,7 @@ import FormSection from './Components/FormSection';
 function App() {
   return (
     <>
-    <FormSection collegeName ="UIET PANJAB UNIVERSITY" siteName="RESULT PORTAL"/>
+    <FormSection />
     </>
   );
 }
